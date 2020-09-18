@@ -6,4 +6,3 @@ pandas
 jinja2
 plotly
 chart_studio
-awesome_streamlit

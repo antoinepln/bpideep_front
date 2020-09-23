@@ -17,8 +17,8 @@ if add_selectbox == 'Predict':
     company = st.text_input('Company name')
 
     if company:
-        # url = 'https://deeptechpredict.herokuapp.com/predict'
-        url = 'http://127.0.0.1:8080/predict'
+        url = 'https://deeptechpredict.herokuapp.com/predict'
+        # url = 'http://127.0.0.1:8080/predict'
 
         params = {
             'name' : company

@@ -56,8 +56,8 @@ def write():
 
 @st.cache
 def get_data(year, month):
-        url = 'http://127.0.0.1:8080/search'
-        # url = 'https://deeptechpredict.herokuapp.com/search'
+        # url = 'http://127.0.0.1:8080/search'
+        url = 'https://deeptechpredict.herokuapp.com/search'
 
         params = {
             'year' : year,

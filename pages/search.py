@@ -68,8 +68,8 @@ def write():
 
 @st.cache
 def get_data(company):
-        # url = 'http://127.0.0.1:8080/predict'
-        url = 'https://deeptechpredict.herokuapp.com/predict'
+        url = 'http://127.0.0.1:8080/predict'
+        # url = 'https://deeptechpredict.herokuapp.com/predict'
 
         params = {
             'name' : company

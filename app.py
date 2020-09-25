@@ -22,7 +22,7 @@ def main():
     page = PAGES[selection]
 
     with st.spinner(f"Loading {selection} ..."):
-        ast.shared.components.write_page(page)
+        pass
 
     st.sidebar.title("About")
     st.sidebar.info(
